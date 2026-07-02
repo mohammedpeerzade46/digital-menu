@@ -1,0 +1,6 @@
+/* App-level tweaks live inside index.css; keep minimal here */
+.App {
+    min-height: 100dvh;
+    width: 100%;
+    position: relative;
+}

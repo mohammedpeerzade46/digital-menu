@@ -1,0 +1,117 @@
+{
+  "theme_and_archetype": {
+    "domain": "Fine Dining / Luxury Restaurant",
+    "theme": "LIGHT",
+    "archetype": "1 (Organic & Earthy) / 5 (Luxury) Hybrid",
+    "vibe": "calm, luxury, sophisticated, warm, minimal, modern, natural, elegant, editorial, timeless",
+    "comparable_brands": "Cartier, Tiffany & Co., Michelin-star websites, Aman Resorts"
+  },
+  "color_palette": {
+    "primary_background": "#F6F2EA",
+    "secondary_background": "#EDE4D8",
+    "accent_gold": "#C6A664",
+    "text_main": "#2A2624",
+    "text_muted": "#5C554F",
+    "borders": "#E2D9C8",
+    "overlay": "rgba(42, 38, 36, 0.55)",
+    "rules": "Never use pure white (#FFFFFF) or pure black (#000000). Avoid bright yellow gold. All borders must be subtle and paper-colored."
+  },
+  "typography": {
+    "fonts": {
+      "heading_font": "Cormorant Garamond, serif",
+      "body_font": "Manrope, sans-serif"
+    },
+    "rules": {
+      "headings": "Tracking-tight for large headings, generous line-height (leading-snug), elegant center-alignment for covers/specials, left-alignment for food lists.",
+      "body": "Tracking-normal, leading-relaxed, text-sm to text-base for descriptions.",
+      "labels": "Uppercase, tracking-[0.2em], text-xs, text-muted for categories and tags like 'CHEF RECOMMENDS'."
+    }
+  },
+  "layout_and_spacing": {
+    "container": "Max-width centered, constrained height to simulate a real physical book. Deep padding around edges.",
+    "spacing_scale": "Generous. Use p-8, p-12, p-16 for structural padding. Create breathing room between menu items.",
+    "menu_book_structure": "A centralized book layout. Desktop: Open book showing 2 pages. Mobile: Single page visible. Absolute positioning for pages to layer them."
+  },
+  "components_and_features": {
+    "entrance_sequence": {
+      "description": "Ambient luxury restaurant background. Floating particles (slow motion). Center logo fades in softly. A delicate gold line expands underneath. Book container rises from bottom smoothly. 'Open Menu' elegant button appears.",
+      "interactions": "Clicking 'Open Menu' triggers the cover to open, revealing the first page."
+    },
+    "menu_book": {
+      "description": "A 3D perspective container. Pages rotate on the Y-axis (transform-origin: left). Use spring physics for the flip.",
+      "page_design": "Minimal. Dotted leaders or wide whitespace separating food name and price. No food thumbnails in the list, purely typographic."
+    },
+    "food_detail_modal": {
+      "description": "Triggered by tapping a food item. The menu behind fades/blurs. A premium card floats up.",
+      "content": "Large cinematic food photo at top, elegant typography for name, ingredients, veg/non-veg icon, prep time, spice level. Soft shadows."
+    },
+    "navigation": {
+      "description": "Book-inspired UI. Ribbon bookmarks or subtle edge tabs to skip directly to Main Course, Desserts, etc. Elegant search overlay."
+    }
+  },
+  "media": {
+    "images": [
+      {
+        "category": "ambient_background",
+        "url": "https://images.unsplash.com/photo-1667388969250-1c7220bf3f37?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA0MTJ8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjByZXN0YXVyYW50JTIwaW50ZXJpb3IlMjB3YXJtJTIwbGlnaHR8ZW58MHx8fHwxNzgyOTg2NjAxfDA&ixlib=rb-4.1.0&q=85",
+        "description": "Luxury warm light restaurant interior for entrance background"
+      },
+      {
+        "category": "paper_texture",
+        "url": "https://images.unsplash.com/photo-1616410731303-6affae095a0a?crop=entropy&cs=srgb&fm=jpg&ixid=M3w3NTY2OTV8MHwxfHNlYXJjaHwyfHxsdXh1cnklMjBwYXBlciUyMHRleHR1cmV8ZW58MHx8fHwxNzgyOTg2NjE4fDA&ixlib=rb-4.1.0&q=85",
+        "description": "Subtle paper texture overlay for the menu pages (use with mix-blend-mode: multiply and low opacity)"
+      },
+      {
+        "category": "Starters_Soups",
+        "url": "https://images.unsplash.com/photo-1761545832843-f551732204fb?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODF8MHwxfHNlYXJjaHw0fHxmaW5lJTIwZGluaW5nJTIwZGlzaCUyMGRhcmslMjBiYWNrZ3JvdW5kfGVufDB8fHx8MTc4Mjk4NjU4M3ww&ixlib=rb-4.1.0&q=85",
+        "description": "Fine dining starter/soup"
+      },
+      {
+        "category": "Main_Course",
+        "url": "https://images.unsplash.com/photo-1663530761401-15eefb544889?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxODF8MHwxfHNlYXJjaHwxfHxmaW5lJTIwZGluaW5nJTIwZGlzaCUyMGRhcmslMjBiYWNrZ3JvdW5kfGVufDB8fHx8MTc4Mjk4NjU4M3ww&ixlib=rb-4.1.0&q=85",
+        "description": "Chef pouring sauce over steak"
+      },
+      {
+        "category": "Desserts",
+        "url": "https://images.unsplash.com/photo-1536534891787-3099c041fed8?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjY2NzF8MHwxfHNlYXJjaHwxfHxnb3VybWV0JTIwZGVzc2VydCUyMGRhcmslMjBsaW5lbnxlbnwwfHx8fDE3ODI5ODY1ODN8MA&ixlib=rb-4.1.0&q=85",
+        "description": "Gourmet dessert"
+      },
+      {
+        "category": "Signature_Drinks",
+        "url": "https://images.unsplash.com/photo-1597075687490-8f673c6c17f6?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NTYxNzV8MHwxfHNlYXJjaHwxfHxsdXh1cnklMjBjb2NrdGFpbCUyMHdhcm0lMjBsaWdodHxlbnwwfHx8fDE3ODI5ODY1ODN8MA&ixlib=rb-4.1.0&q=85",
+        "description": "Luxury cocktail warm light"
+      },
+      {
+        "category": "Pizza",
+        "url": "https://images.pexels.com/photos/16203831/pexels-photo-16203831.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "description": "Gourmet pizza"
+      },
+      {
+        "category": "Pasta",
+        "url": "https://images.pexels.com/photos/11829703/pexels-photo-11829703.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "description": "Gourmet pasta"
+      },
+      {
+        "category": "Burgers_Sandwiches",
+        "url": "https://images.unsplash.com/photo-1611309454921-16cef3438ee0?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjA1NjZ8MHwxfHNlYXJjaHwyfHxnb3VybWV0JTIwYnVyZ2VyJTIwZGFyayUyMGJhY2tncm91bmR8ZW58MHx8fHwxNzgyOTg2NjE3fDA&ixlib=rb-4.1.0&q=85",
+        "description": "Gourmet burger"
+      },
+      {
+        "category": "Coffee_Tea",
+        "url": "https://images.pexels.com/photos/34036515/pexels-photo-34036515.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "description": "Latte art"
+      }
+    ]
+  },
+  "instructions_to_main_agent": [
+    "1. FRAMEWORK: Use React + Tailwind CSS + Framer Motion. Use .jsx/.js extensions exclusively. NO TypeScript (.tsx or .ts).",
+    "2. SETUP: Install 'framer-motion', 'lucide-react'. Import 'Cormorant Garamond' and 'Manrope' from Google Fonts in index.css.",
+    "3. CONFIG: Extend tailwind.config.js with the custom colors provided above (primary_background, secondary_background, accent_gold, text_main, text_muted).",
+    "4. ENTRANCE: Build a cinematic Entrance sequence. Render absolute floating particles. Animate the 'Empire' logo fading in, followed by a 'Open Menu' CTA.",
+    "5. 3D BOOK: Create an interactive Book component. Use a container with `perspective: 1500px`. Pages must have `transform-style: preserve-3d`, `transform-origin: left center`, and absolute positioning. Rotate Y-axis via framer-motion to flip pages.",
+    "6. CONTENT: Create a robust JSON-like data structure in JS containing the 17 requested categories. Populate it with fictional premium food items. Use the media URLs provided here for the detail modal.",
+    "7. UI ELEMENTS: Implement an elegant expandable Search and Veg/Non-Veg filter in the UI (perhaps as an overlay or sidebar). Use ribbon bookmarks on the right edge of the book for quick category jumping.",
+    "8. TESTING: Apply `data-testid` to all interactive elements (buttons, inputs, menu items, tabs, close buttons) in kebab-case format.",
+    "9. AESTHETIC: Mix paper_texture image over the background using `mix-blend-mode: multiply` and `opacity: 0.1` to simulate physical paper. Add subtle drop shadows to the book to give it weight."
+  ]
+}
